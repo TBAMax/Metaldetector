@@ -2,7 +2,7 @@
  * Project:Metal detector with PIC microcontroller
  * File:   main.c
  * Author: Teemo Berkis
- *
+ * www.digiwood.ee
  * Created on pühapäev, 25. märts 2018. a, 4:01
  * for PIC16F1824
  */

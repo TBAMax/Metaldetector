@@ -3,7 +3,8 @@
  * File:   main.c
  * Author: Teemo Berkis
  *
- * Created on pühapäev, 25. märts 2018. a, 4:01
+ * Created on pÃ¼hapÃ¤ev, 25. mÃ¤rts 2018. a, 4:01
+ * for PIC16F1824
  */
 
 

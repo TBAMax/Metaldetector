@@ -148,10 +148,10 @@ void interrupt isr(void) {
     {
         milliscount++;
         TMR4IF = 0;
-    } else if (PIE1bits.TXIE == 1 && PIR1bits.TXIF == 1){ // UART interrupt              
-        EUSART_Transmit_ISR();
     } else if (PIE1bits.RCIE == 1 && PIR1bits.RCIF == 1) {
         EUSART_Receive_ISR();
+    } else if (PIR1bits.TXIF == 1){ // UART interrupt              
+        EUSART_Transmit_ISR();
     } else {
         NOP(); /* Unhandled interrupts */
         RESET();
